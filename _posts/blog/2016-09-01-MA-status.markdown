@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "IT 維運面臨的問題和調整"
+title:  "IT 維運面臨的問題和挑戰"
 date: 2016-09-01 16:54:46
 author: Admin
 categories: 
 - ELK 
 - iPOC
 img: http://i.imgur.com/GOWrXUt.png
-thumb: fa-comb
+thumb: fa-bomb
 ---
 
 >隨著IT系統越來越複雜，IT維運的複雜度和難度正急劇攀升，IT維運的思路、技術與方法都要有所創新；更由於缺乏對 IT維運及運營的有效管理，很多企業與組織的IT在巨額投資背後卻是長期的低效運營，IT投資的價值難以獲得實現。只有通過長期、高效的維運，IT才能實現與業務的同步發展。
