@@ -494,8 +494,7 @@ csmall {
 	}
 
 .popular-posts li i {
-	float: left; 
-	margin-right: 20px;
+	float: left; margin-right: 20px;
 	color: {{ site.colors.color_green }};
 	}
 
