@@ -7,7 +7,7 @@ categories:
 - ELK 
 - IIS
 img: http://i.imgur.com/bGySN8e.png
-thumb: thumb01.jpg
+thumb: fa-cog
 ---
 
 # iis 6.0 上的參數設定
