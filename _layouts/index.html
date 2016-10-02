@@ -2,12 +2,12 @@
 layout: default
 ---
 {% include header.html %}
+
+  {{ content }}
+{% include portfolio.html title="LATEST WORKS" limit=10 %}
 {% include headerA.html %}
 {% include headerC.html %}
 {% include headerD.html %}
 {% include headerB.html %}
-
-  {{ content }}
-
 {% include testimonial.html %}
 {% include clients.html %}
