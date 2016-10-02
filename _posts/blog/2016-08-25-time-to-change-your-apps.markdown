@@ -1,31 +1,45 @@
 ---
 layout: post
-title: "Time to change your apps"
+title:  "Microsoft IIS log 設定方式"
 date: 2016-08-25 16:54:46
 author: Admin
 categories: 
-- blog 
-- Wordpress
-- Photoshop
+- ELK 
+- IIS
 img: post01.jpg
 thumb: thumb01.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+# iis 6.0 上的參數設定
+用戶提供的iislog 中的參數中， 沒有time taken 的內容
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+```
+Software: Microsoft Internet Information Services 6.0
+Version: 1.0
+Date: 2016-06-28 06:05:45
+Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status
+```
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
+## 回答內容
 
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+> 目前的iis log 中 有個Time Taken的參數， 是看響應時間， default 是N， 所以沒有收集到， 是否可以更改為Y， 以下是microsoft 的iis log 的說明文件
+> Time Taken time-taken The length of time that the action took, in milliseconds.  N
 
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+> 目前的iis log 中 有個Time Taken的參數， 是看響應時間， default 是N， 所以沒有收集到， 是否可以更改為Y， 以下是microsoft 的iis log 的說明文件
 
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## microsoft 上的設定畫面
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+![設定的內容](http://i.imgur.com/bGySN8e.png) 
 
-[hampden]: https://github.com/jekyll/jekyll
+## iislog 時間差的確認
+
+![時間差的畫面](/img/iislog-8hr.png)
+
+
+microsoft 上的說明內容
+
+
+
+[microsoft iis 6.0 說明文件](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/676400bc-8969-4aa7-851a-9319490a9bbb.mspx?mfr=true)
+
