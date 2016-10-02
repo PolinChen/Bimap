@@ -7,7 +7,7 @@ categories:
 - blog
 - Web-Design
 - Development
-img: post02.jpg
+img: /assets/img/blog/post02.jpg
 thumb: thumb02.jpg
 ---
 
