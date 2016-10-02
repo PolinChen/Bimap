@@ -6,7 +6,7 @@ author: Admin
 categories: 
 - ELK 
 - IIS
-img: post01.jpg
+img: http://i.imgur.com/bGySN8e.png
 thumb: thumb01.jpg
 ---
 
