@@ -6,7 +6,7 @@ author: Admin
 categories: 
 - ELK 
 - iPOC
-img: http://i.imgur.com/GOWrXUt.png
+img: https://letsbehealthyagain.files.wordpress.com/2016/01/sysadmin-challenge.jpg
 thumb: fa-bomb
 ---
 
@@ -17,6 +17,7 @@ thumb: fa-bomb
 - 無法快速有效定位問題的真正根源，通常只能選擇如重啟系統等無奈手段，讓系統暫時性的恢復運行。
 - 隨著組織營運與服務規模的成長，企業對IT系統運作的穩定性和品質要求也跟隨著不斷提升,增加管理困難度。
 
+![Imgur0](http://i.imgur.com/GOWrXUt.png)
 
 ### 智能維運服務概述：
 > 隨著技術及業務的快速發展，當前企業和單位不得不面對日益復雜的IT基礎架構、眾多IT廠商不同的服務標準與服務水準、不同時期獨立搭建的各系統間的互聯性管理、不同品牌的產品、多地域及多人員的複雜管理，IT系統穩定性與速度的平衡管理等問題，這為實現IT系統穩定、高效的運行帶來了巨大挑戰。
