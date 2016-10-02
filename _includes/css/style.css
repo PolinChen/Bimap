@@ -194,6 +194,15 @@ a:focus {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
+.hblock { margin-top: 50px; margin-bottom: 30px; }
+.hblock h3 { color: #fff; text-align: center; }
+.bgcolor1 { background-color: {{ site.colors.primary }}; }
+.color_grey { background-color: {{ site.colors.color_grey }}; }
+.color_lblue { background-color: {{ site.colors.color_lblue }}; }
+.color_blue { background-color: {{ site.colors.color_blue }}; }
+.color_green { background-color: {{ site.colors.color_green }}; }
+.color_yellow { background-color: {{ site.colors.color_yellow }}; }
+.color_red { background-color: {{ site.colors.color_red }}; }
 
 .mb {
 	margin-bottom: 60px;
