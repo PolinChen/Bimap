@@ -1,4 +1,5 @@
 Polin chen
+Ming 
 Solid. A Bootstrap theme for Jekyll.
 ============
 ![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
